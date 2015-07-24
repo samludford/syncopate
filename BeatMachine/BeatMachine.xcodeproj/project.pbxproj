@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		965F57681B60F12300C8360B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965F57641B60F12300C8360B /* LaunchScreen.xib */; };
 		965F57691B60F12300C8360B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965F57661B60F12300C8360B /* Main.storyboard */; };
-		9672EBE91B62277800D916B7 /* SLMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBDE1B62277800D916B7 /* SLMath.swift */; };
-		9672EBEA1B62277800D916B7 /* SLMetronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBDF1B62277800D916B7 /* SLMetronome.swift */; };
-		9672EBEB1B62277800D916B7 /* SLPatternManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBE01B62277800D916B7 /* SLPatternManager.swift */; };
-		9672EBEC1B62277800D916B7 /* SLSampleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBE11B62277800D916B7 /* SLSampleManager.swift */; };
-		9672EBED1B62277800D916B7 /* SLTickDiffuser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBE21B62277800D916B7 /* SLTickDiffuser.swift */; };
-		9672EBEE1B62277800D916B7 /* SLTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBE31B62277800D916B7 /* SLTicker.swift */; };
-		9672EBEF1B62277800D916B7 /* SLSamplePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBE41B62277800D916B7 /* SLSamplePlayer.swift */; };
-		9672EBF01B62277800D916B7 /* SLStateChangeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBE51B62277800D916B7 /* SLStateChangeListener.swift */; };
-		9672EBF11B62277800D916B7 /* SLStateChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBE61B62277800D916B7 /* SLStateChanger.swift */; };
-		9672EBF21B62277800D916B7 /* SLTickReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBE71B62277800D916B7 /* SLTickReceiver.swift */; };
-		9672EBF41B6227D000D916B7 /* SLPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672EBF31B6227D000D916B7 /* SLPattern.swift */; };
+		96A041E21B623518006A552E /* SLMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041D71B623518006A552E /* SLMath.swift */; };
+		96A041E31B623518006A552E /* SLMetronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041D81B623518006A552E /* SLMetronome.swift */; };
+		96A041E41B623518006A552E /* SLPatternManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041D91B623518006A552E /* SLPatternManager.swift */; };
+		96A041E51B623518006A552E /* SLSampleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041DA1B623518006A552E /* SLSampleManager.swift */; };
+		96A041E61B623518006A552E /* SLTickDiffuser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041DB1B623518006A552E /* SLTickDiffuser.swift */; };
+		96A041E71B623518006A552E /* SLTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041DC1B623518006A552E /* SLTicker.swift */; };
+		96A041E81B623518006A552E /* SLSamplePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041DD1B623518006A552E /* SLSamplePlayer.swift */; };
+		96A041E91B623518006A552E /* SLStateChangeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041DE1B623518006A552E /* SLStateChangeListener.swift */; };
+		96A041EA1B623518006A552E /* SLStateChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041DF1B623518006A552E /* SLStateChanger.swift */; };
+		96A041EB1B623518006A552E /* SLTickReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041E01B623518006A552E /* SLTickReceiver.swift */; };
+		96A041EC1B623518006A552E /* SLPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A041E11B623518006A552E /* SLPattern.swift */; };
 		96E4680B1B60DE03005E126E /* ALAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E467F91B60DE03005E126E /* ALAudioPlayer.m */; };
 		96E4680C1B60DE03005E126E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E467FA1B60DE03005E126E /* AppDelegate.swift */; };
 		96E4680E1B60DE03005E126E /* clav.caf in Resources */ = {isa = PBXBuildFile; fileRef = 96E467FD1B60DE03005E126E /* clav.caf */; };
@@ -55,18 +55,17 @@
 /* Begin PBXFileReference section */
 		965F57651B60F12300C8360B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = BeatMachine/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
 		965F57671B60F12300C8360B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BeatMachine/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		9672EBDE1B62277800D916B7 /* SLMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLMath.swift; path = ../Framework/Syncopate/Syncopate/SLMath.swift; sourceTree = "<group>"; };
-		9672EBDF1B62277800D916B7 /* SLMetronome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLMetronome.swift; path = ../Framework/Syncopate/Syncopate/SLMetronome.swift; sourceTree = "<group>"; };
-		9672EBE01B62277800D916B7 /* SLPatternManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPatternManager.swift; path = ../Framework/Syncopate/Syncopate/SLPatternManager.swift; sourceTree = "<group>"; };
-		9672EBE11B62277800D916B7 /* SLSampleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLSampleManager.swift; path = ../Framework/Syncopate/Syncopate/SLSampleManager.swift; sourceTree = "<group>"; };
-		9672EBE21B62277800D916B7 /* SLTickDiffuser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLTickDiffuser.swift; path = ../Framework/Syncopate/Syncopate/SLTickDiffuser.swift; sourceTree = "<group>"; };
-		9672EBE31B62277800D916B7 /* SLTicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLTicker.swift; path = ../Framework/Syncopate/Syncopate/SLTicker.swift; sourceTree = "<group>"; };
-		9672EBE41B62277800D916B7 /* SLSamplePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLSamplePlayer.swift; path = ../Framework/Syncopate/Syncopate/SLSamplePlayer.swift; sourceTree = "<group>"; };
-		9672EBE51B62277800D916B7 /* SLStateChangeListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLStateChangeListener.swift; path = ../Framework/Syncopate/Syncopate/SLStateChangeListener.swift; sourceTree = "<group>"; };
-		9672EBE61B62277800D916B7 /* SLStateChanger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLStateChanger.swift; path = ../Framework/Syncopate/Syncopate/SLStateChanger.swift; sourceTree = "<group>"; };
-		9672EBE71B62277800D916B7 /* SLTickReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLTickReceiver.swift; path = ../Framework/Syncopate/Syncopate/SLTickReceiver.swift; sourceTree = "<group>"; };
-		9672EBE81B62277800D916B7 /* Syncopate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Syncopate.h; path = ../Framework/Syncopate/Syncopate/Syncopate.h; sourceTree = "<group>"; };
-		9672EBF31B6227D000D916B7 /* SLPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPattern.swift; path = ../Framework/Syncopate/Syncopate/SLPattern.swift; sourceTree = "<group>"; };
+		96A041D71B623518006A552E /* SLMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLMath.swift; path = ../Framework/Syncopate/Syncopate/SLMath.swift; sourceTree = "<group>"; };
+		96A041D81B623518006A552E /* SLMetronome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLMetronome.swift; path = ../Framework/Syncopate/Syncopate/SLMetronome.swift; sourceTree = "<group>"; };
+		96A041D91B623518006A552E /* SLPatternManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPatternManager.swift; path = ../Framework/Syncopate/Syncopate/SLPatternManager.swift; sourceTree = "<group>"; };
+		96A041DA1B623518006A552E /* SLSampleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLSampleManager.swift; path = ../Framework/Syncopate/Syncopate/SLSampleManager.swift; sourceTree = "<group>"; };
+		96A041DB1B623518006A552E /* SLTickDiffuser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLTickDiffuser.swift; path = ../Framework/Syncopate/Syncopate/SLTickDiffuser.swift; sourceTree = "<group>"; };
+		96A041DC1B623518006A552E /* SLTicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLTicker.swift; path = ../Framework/Syncopate/Syncopate/SLTicker.swift; sourceTree = "<group>"; };
+		96A041DD1B623518006A552E /* SLSamplePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLSamplePlayer.swift; path = ../Framework/Syncopate/Syncopate/SLSamplePlayer.swift; sourceTree = "<group>"; };
+		96A041DE1B623518006A552E /* SLStateChangeListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLStateChangeListener.swift; path = ../Framework/Syncopate/Syncopate/SLStateChangeListener.swift; sourceTree = "<group>"; };
+		96A041DF1B623518006A552E /* SLStateChanger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLStateChanger.swift; path = ../Framework/Syncopate/Syncopate/SLStateChanger.swift; sourceTree = "<group>"; };
+		96A041E01B623518006A552E /* SLTickReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLTickReceiver.swift; path = ../Framework/Syncopate/Syncopate/SLTickReceiver.swift; sourceTree = "<group>"; };
+		96A041E11B623518006A552E /* SLPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPattern.swift; path = ../Framework/Syncopate/Syncopate/SLPattern.swift; sourceTree = "<group>"; };
 		96DD29091AE94D0E00768463 /* BeatMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E467F81B60DE03005E126E /* ALAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAudioPlayer.h; path = BeatMachine/ALAudioPlayer.h; sourceTree = SOURCE_ROOT; };
 		96E467F91B60DE03005E126E /* ALAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALAudioPlayer.m; path = BeatMachine/ALAudioPlayer.m; sourceTree = SOURCE_ROOT; };
@@ -106,28 +105,27 @@
 		9672EBDC1B62275100D916B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9672EBDD1B62276400D916B7 /* Syncopate */,
+				96A041D61B623508006A552E /* Syncopate */,
 				96E83D091AEA855500C886CD /* OpenAL.framework */,
 				96E83D0B1AEA855C00C886CD /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9672EBDD1B62276400D916B7 /* Syncopate */ = {
+		96A041D61B623508006A552E /* Syncopate */ = {
 			isa = PBXGroup;
 			children = (
-				9672EBF31B6227D000D916B7 /* SLPattern.swift */,
-				9672EBDE1B62277800D916B7 /* SLMath.swift */,
-				9672EBDF1B62277800D916B7 /* SLMetronome.swift */,
-				9672EBE01B62277800D916B7 /* SLPatternManager.swift */,
-				9672EBE11B62277800D916B7 /* SLSampleManager.swift */,
-				9672EBE21B62277800D916B7 /* SLTickDiffuser.swift */,
-				9672EBE31B62277800D916B7 /* SLTicker.swift */,
-				9672EBE41B62277800D916B7 /* SLSamplePlayer.swift */,
-				9672EBE51B62277800D916B7 /* SLStateChangeListener.swift */,
-				9672EBE61B62277800D916B7 /* SLStateChanger.swift */,
-				9672EBE71B62277800D916B7 /* SLTickReceiver.swift */,
-				9672EBE81B62277800D916B7 /* Syncopate.h */,
+				96A041D71B623518006A552E /* SLMath.swift */,
+				96A041D81B623518006A552E /* SLMetronome.swift */,
+				96A041D91B623518006A552E /* SLPatternManager.swift */,
+				96A041DA1B623518006A552E /* SLSampleManager.swift */,
+				96A041DB1B623518006A552E /* SLTickDiffuser.swift */,
+				96A041DC1B623518006A552E /* SLTicker.swift */,
+				96A041DD1B623518006A552E /* SLSamplePlayer.swift */,
+				96A041DE1B623518006A552E /* SLStateChangeListener.swift */,
+				96A041DF1B623518006A552E /* SLStateChanger.swift */,
+				96A041E01B623518006A552E /* SLTickReceiver.swift */,
+				96A041E11B623518006A552E /* SLPattern.swift */,
 			);
 			name = Syncopate;
 			sourceTree = "<group>";
@@ -291,20 +289,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E4681B1B60DE03005E126E /* ViewController.swift in Sources */,
-				9672EBF01B62277800D916B7 /* SLStateChangeListener.swift in Sources */,
-				9672EBEF1B62277800D916B7 /* SLSamplePlayer.swift in Sources */,
-				9672EBF21B62277800D916B7 /* SLTickReceiver.swift in Sources */,
-				9672EBEC1B62277800D916B7 /* SLSampleManager.swift in Sources */,
-				9672EBEB1B62277800D916B7 /* SLPatternManager.swift in Sources */,
-				9672EBED1B62277800D916B7 /* SLTickDiffuser.swift in Sources */,
-				9672EBF41B6227D000D916B7 /* SLPattern.swift in Sources */,
-				9672EBEA1B62277800D916B7 /* SLMetronome.swift in Sources */,
+				96A041E91B623518006A552E /* SLStateChangeListener.swift in Sources */,
+				96A041E81B623518006A552E /* SLSamplePlayer.swift in Sources */,
+				96A041EB1B623518006A552E /* SLTickReceiver.swift in Sources */,
+				96A041E51B623518006A552E /* SLSampleManager.swift in Sources */,
+				96A041E41B623518006A552E /* SLPatternManager.swift in Sources */,
+				96A041E61B623518006A552E /* SLTickDiffuser.swift in Sources */,
+				96A041EC1B623518006A552E /* SLPattern.swift in Sources */,
+				96A041E31B623518006A552E /* SLMetronome.swift in Sources */,
 				96E4680C1B60DE03005E126E /* AppDelegate.swift in Sources */,
 				96E4680B1B60DE03005E126E /* ALAudioPlayer.m in Sources */,
-				9672EBF11B62277800D916B7 /* SLStateChanger.swift in Sources */,
+				96A041EA1B623518006A552E /* SLStateChanger.swift in Sources */,
 				96E468161B60DE03005E126E /* SLSequenceTrain.swift in Sources */,
-				9672EBE91B62277800D916B7 /* SLMath.swift in Sources */,
-				9672EBEE1B62277800D916B7 /* SLTicker.swift in Sources */,
+				96A041E21B623518006A552E /* SLMath.swift in Sources */,
+				96A041E71B623518006A552E /* SLTicker.swift in Sources */,
 				96E468151B60DE03005E126E /* SLCheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
