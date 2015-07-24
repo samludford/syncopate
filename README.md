@@ -25,3 +25,5 @@ Syncopate also provides two protocols, `SLStateChanger` and `SLStateChangeListen
 ## Example App
 
 This repository contains both the Syncopate framework and an example app, which demonstrates how the library can be used to build a basic drum sequencer. 
+
+![Alt text](https://github.com/samludford/syncopate/blob/master/Screenshots/beatmachine.png?raw=true "The Beat Machine drum sequencer")
