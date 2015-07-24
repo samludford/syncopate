@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/work/Library/Developer/Xcode/DerivedData/Syncopate-gownxmqehjpbrfbysvhifpithsdq/Build/Products/Release-iphonesimulator/Syncopate.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/work/iOS/Syncopate/Framework/Syncopate/build/Syncopate.build/Release-iphonesimulator/Syncopate.build/unextended-module.modulemap',
+    }]
+  }]
+}

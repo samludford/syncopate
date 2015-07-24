@@ -1,0 +1,10 @@
+framework module Syncopate {
+  umbrella header "Syncopate.h"
+
+  export *
+  module * { export * }
+}
+
+module Syncopate.__Swift {
+    exclude header "Syncopate-Swift.h"
+}
