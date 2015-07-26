@@ -2,16 +2,11 @@ Pod::Spec.new do |s|
 
     s.name         = "Syncopate"
     s.version      = "0.0.1"
-    s.summary      = "A simple library for handling clocking and synchronisation in music apps"
+    s.summary      = "A simple library for handling clocking and synchronisation in creative music apps"
 
-#  s.description  = <<-DESC
-#                   A longer description of Syncopate in Markdown format.
-
-#                   * Think: Why did you write this? What is the focus? What does it do?
-#                   * CocoaPods will be using this to generate tags, and improve search results.
-#                   * Try to keep it short, snappy and to the point.
-#                   * Finally, don't worry about the indent, CocoaPods strips it!
-#                   DESC
+  s.description  = <<-DESC
+                A simple Swift library for handling clocking and synchronisation in creative music apps. Syncopate is based on ticks, which are inspired by the concept of a 'bang' in Max/MSP. Syncopate can be used in apps targeting iOS 8.0 and up.
+                   DESC
 
     s.homepage     = "https://github.com/samludford/syncopate"
     s.license      = "MIT"
