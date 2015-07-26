@@ -59,7 +59,7 @@ public class SLPatternManager: SLTicker, SLTickReceiver, SLStateChanger {
      *  SLTickReceiver Protocol Methods
      */
     
-    public func didReceiveTick() {
+    public func didReceiveTick(origin: SLTicker) {
         
         position++
         

@@ -31,7 +31,7 @@ public class SLTickDiffuser: SLTicker, SLTickReceiver {
     /*
      *   MARK: SLTickReceiver Protocol Methods
      */
-    public func didReceiveTick() {
+    public func didReceiveTick(origin: SLTicker) {
         if count >= diffusion {
             count = 0
             tick()

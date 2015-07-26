@@ -27,7 +27,7 @@ public class SLSampleManager: NSObject, SLTickReceiver {
     /*
      *   MARK: SLTickReceiver Protocol Methods
      */
-    public func didReceiveTick() {
+    public func didReceiveTick(origin: SLTicker) {
         samplePlayer.play(sampleName)
     }
    

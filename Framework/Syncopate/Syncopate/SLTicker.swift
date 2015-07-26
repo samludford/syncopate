@@ -17,9 +17,15 @@ import UIKit
 public class SLTicker: NSObject {
     
     /*
+    *   Ticker ID
+    */
+    public var id: Int = 0
+    
+    /*
     *   An array of tick receivers
     */
     private var receivers: [SLTickReceiver] = []
+
     
     /*
     *   Register a tick receiver
@@ -44,7 +50,7 @@ public class SLTicker: NSObject {
     */
     public func tick() {
         for receiver in receivers {
-            receiver.didReceiveTick()
+            receiver.didReceiveTick(self)
         }
     }
     

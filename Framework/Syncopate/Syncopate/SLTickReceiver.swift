@@ -13,5 +13,5 @@ import Foundation
 *   from any SLTicker. (Typically to control audio playback, etc.)
 */
 public protocol SLTickReceiver: class {
-    func didReceiveTick()
+    func didReceiveTick(origin: SLTicker)
 }
