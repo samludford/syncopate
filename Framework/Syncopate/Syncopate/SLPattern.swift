@@ -16,6 +16,12 @@ public struct Pattern {
     
     public var hits: [Bool]
     
+    public var length: Int {
+        get {
+            return hits.count
+        }
+    }
+    
     public init(hits: [Bool]) {
         self.hits = hits
     }

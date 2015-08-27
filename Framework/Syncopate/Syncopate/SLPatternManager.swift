@@ -29,7 +29,13 @@ public class SLPatternManager: SLTicker, SLTickReceiver, SLStateChanger {
      *  State
      */
     
-    public var pattern: Pattern
+    public var pattern: Pattern {
+        didSet {
+            if position >= pattern.length {
+                position = 0
+            }
+        }
+    }
     
     public var length: Int {
         get {
